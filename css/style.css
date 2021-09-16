@@ -525,7 +525,7 @@ h2{
 
 .social-links {
     margin-top: 30px;
-    display: flex;
+    
     
   }
 
@@ -690,4 +690,28 @@ background-size: 100%;
     .when {
       display:block;
     }
+  }
+
+
+  @media screen and (max-width :375px){
+    
+    section{
+        max-width: 100% !important;
+        margin: 0;
+        padding: 0;
+        
+    }
+   
+
+    /* .jail{
+        display: none;
+    }
+
+    .vl{
+        display: none;
+    } */
+    .skills-content{
+        display: none !important;
+    }
+   
   }
